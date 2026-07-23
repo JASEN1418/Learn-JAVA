@@ -1,1 +1,1 @@
-第一天安装了intellidea，然后学习了git的一些操作，关联github，学习了Java的输出和数据类型。
+第一天安装了intellidea，然后学习了git的一些操作，关联github，学习了Java的输出和数据类型，自己根据之前c和cpp的经验写了一个九九乘法表。
