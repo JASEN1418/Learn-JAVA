@@ -1,0 +1,1 @@
+第一天安装了intellidea，然后学习了git的一些操作，关联github，学习了Java的输出和数据类型。
