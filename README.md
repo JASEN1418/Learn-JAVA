@@ -45,3 +45,13 @@ Java所有类都继承了object类
 每轮可以选择防御或者进攻
 其实还可以设计防御和一些技能
 等学完之后我再来完善一下这个
+
+第七天学习String类的方法和底层原理
+Java里面的String生成了后是不能改变的
+所有遍历没有cpp方便
+只能用char去接受str.charAt(index)
+还有就是四大基础功能增删改查
+基本上在StringBuilder StringJoiner里面
+这样可以节省空间和时间
+在string上面改必须用字符串去接受结果
+原字符串不会发生改变
