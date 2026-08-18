@@ -11,6 +11,8 @@ public class day002 {
         a=sc.nextInt();//键盘录入
         long b=sc.nextInt();
         System.out.println(a+b);
+        char c=sc.next().charAt(0);
+        System.out.println(c);
         int test=sc.nextInt();
         while(test>0){
             int temp=test%10;
