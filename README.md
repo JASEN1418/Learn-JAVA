@@ -185,3 +185,25 @@ static用接口名去调用
 还有关于Java**爬虫**的知识
 第二个写了一些进阶一点的正则表达式
 还有**replaceAll split** 两个**String**方法 
+
+### 第十八天
+学习了**JDk7**和**JDK8**的时间类
+- **Date**
+- **Calendar**
+- Instant
+- LocalDateTime
+- **LocalDate**
+- LocalTime
+- ZoneId
+- ZoneDateTime
+- Period
+- Duration
+- **ChronoUnit**
+- **Integer**
+- **Arrays**
+
+**时间类**主要是了解即可
+**包装类Integer**和**Character Arrays**是重点
+还顺便复习了一下**常见算法**
+**冒泡 选排 快排 二分 插排 哈希查找 递归**
+然后做了5个小练习
