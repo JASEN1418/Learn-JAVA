@@ -14,6 +14,8 @@ public class day004 {
         Scanner sc=new Scanner(System.in);
         long a=sc.nextLong();long b=sc.nextLong();
         System.out.println(day004.qpow(a,b));
+        swap(a,b);
+        System.out.println(a+" "+b);//值传递
     }
 
     public static long qpow(long x,long y){
@@ -25,5 +27,11 @@ public class day004 {
             y>>=1;
         }
         return ans;
+    }
+
+    public static void swap(long a,long b){
+        long temp=a;
+        a=b;
+        b=temp;
     }
 }
