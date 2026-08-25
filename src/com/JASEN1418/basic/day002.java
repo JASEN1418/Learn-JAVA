@@ -1,3 +1,5 @@
+package com.JASEN1418.basic;
+
 import java.util.Scanner;//键盘录入类
 
 public class day002 {

@@ -1,3 +1,5 @@
+package com.JASEN1418.basic;
+
 import java.util.Scanner;
 
 public class day004 {

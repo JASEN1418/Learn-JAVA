@@ -1,4 +1,5 @@
-import java.util.Scanner;//引用键盘录入类
+package com.JASEN1418.basic;
+
 public class day001 {
     public static void main(String[] args) {
         System.out.println("Hello World!");
