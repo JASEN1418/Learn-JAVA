@@ -307,7 +307,7 @@ TreeSet和cpp的set差不多
 
 ### 第二十五天
 - **File**
-- **FileOutPutStream**
+- **FileOutputStream**
 
 开始学习文件相关操作
 特别注意**delete**
@@ -319,3 +319,17 @@ TreeSet和cpp的set差不多
 **.表示任意字符**的意思
 初学了一下**IO流**
 怎么**写入**和**续写**以及**关闭**
+
+### 第二十六天
+- **FileInputStream**
+- **CharStream**
+- **BufferedStream**
+
+具体有**字节流** **字符流**
+还有就是**高级流Buffered**
+**字节流**只是增加了**运行速度**
+在**字符流**上增加了**readLine**和**newLine**方法
+还有一些编码知识
+**Unicode GBK**这些
+了解了一下**底层原理**
+还练习了一下**文件加密**

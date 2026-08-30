@@ -3,7 +3,7 @@ package com.JASEN1418.IOStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class FileOutPutStreamDemo {
+public class FileOutputStreamDemo {
     public static void main(String[] args) throws IOException {
 
         //如果不存在会创建但要保证父级路径存在
