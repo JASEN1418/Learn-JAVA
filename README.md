@@ -333,3 +333,20 @@ TreeSet和cpp的set差不多
 **Unicode GBK**这些
 了解了一下**底层原理**
 还练习了一下**文件加密**
+
+### 第二十七天
+- **ConvertStream**
+- **ObjectStream**
+- **PrintStream**
+- **ZipStream**
+
+还学习了**Commons-io**工具包
+主要是操作**IO流**的一些**包装类**
+底层的那些IO感觉其实一般不怎么使用
+然后就是**Hutool工具包**
+比较全面和万能
+有很多的工具类供使用<br>
+主站<br>
+https://hutool.cn<br>
+备用网站<br>
+https://doc.hutool.cn/<br>
