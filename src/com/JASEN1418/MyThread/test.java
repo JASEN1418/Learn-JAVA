@@ -24,6 +24,21 @@ public class test {
         LockDemo l4=new LockDemo("平台四");
 
         l1.start();l2.start();l3.start();l4.start();
+        l1.join();l2.join();l3.join();l4.join();
+
+        System.out.println("========================");
+        System.out.println("自助厨房即将开始！");
+
+        Thread.sleep(2000);
+
+        Cook c=new Cook();
+        c.setName("厨师");
+        Foodie f=new Foodie();
+        f.setName("顾客");
+
+        c.start();
+        f.start();
+
 
     }
 }

@@ -1,0 +1,27 @@
+package com.JASEN1418.MyThread;
+
+public class Cook extends Thread{
+    @Override
+    public void run() {
+        while(true){
+            synchronized (Desk.lock){
+                if(Desk.Max_FoodNumber==0){
+                    break;
+                }
+                else{
+                    if(Desk.foodFlag==1){
+                        try {
+                            Desk.lock.wait();
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
+                        }
+                    }else{
+                        System.out.println("厨师正在做饭！");
+                        Desk.foodFlag=1;
+                        Desk.lock.notify();
+                    }
+                }
+            }
+        }
+    }
+}
